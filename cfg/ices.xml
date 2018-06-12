@@ -22,7 +22,7 @@
     </Server> 
 
 <Mountpoint>/chillout</Mountpoint>
-    <Name>Chillut radio</Name> 
+    <Name>Chillout radio</Name> 
     <Genre>trance</Genre> 
     <Description>Default description</Description> 
     <URL>http://localhost:8000/chillout</URL> 

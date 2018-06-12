@@ -2,8 +2,8 @@
     <!-- location and admin are two arbitrary strings that are e.g. visible
          on the server info page of the icecast web interface
          (server_version.xsl). -->
-    <location>Chillout planet</location>
-    <admin>icemaster@chilloutplanet.ru</admin>
+    <location>test</location>
+    <admin>icemaster@test.ru</admin>
 
     <!-- IMPORTANT!
          Especially for inexperienced users:
