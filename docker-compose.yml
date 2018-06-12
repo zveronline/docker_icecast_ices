@@ -1,0 +1,13 @@
+version: '2'
+services:
+     radio:
+        container_name: radio
+        restart: always
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        volumes:
+            - ./music:/stream/tracks
+        ports:
+            - "8000:8000"
+            - "8077:8077"

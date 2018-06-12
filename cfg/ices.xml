@@ -8,8 +8,8 @@
   </Playlist> 
 
   <Execution> 
-    <Background>1</Background> 
-    <Verbose>0</Verbose> 
+    <Background>0</Background> 
+    <Verbose>1</Verbose> 
     <BaseDirectory>/tmp</BaseDirectory> 
   </Execution> 
 
