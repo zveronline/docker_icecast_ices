@@ -1,0 +1,36 @@
+<?xml version="1.0"?> 
+<ices:Configuration xmlns:ices="http://www.icecast.org/projects/ices"> 
+  <Playlist> 
+    <File>/stream/playlist.txt</File> 
+    <Randomize>1</Randomize> 
+    <Type>builtin</Type> 
+    <Module>ices</Module> 
+  </Playlist> 
+
+  <Execution> 
+    <Background>1</Background> 
+    <Verbose>0</Verbose> 
+    <BaseDirectory>/tmp</BaseDirectory> 
+  </Execution> 
+
+  <Stream> 
+    <Server> 
+      <Hostname>localhost</Hostname> 
+      <Port>8000</Port> 
+      <Password>SourcePass</Password> 
+      <Protocol>http</Protocol> 
+    </Server> 
+
+<Mountpoint>/chillout</Mountpoint>
+    <Name>Chillut radio</Name> 
+    <Genre>trance</Genre> 
+    <Description>Default description</Description> 
+    <URL>http://localhost:8000/chillout</URL> 
+    <Public>1</Public> 
+
+    <Bitrate>256</Bitrate> 
+    <Reencode>1</Reencode> 
+    <Samplerate>44100</Samplerate> 
+    <Channels>2</Channels> 
+  </Stream> 
+</ices:Configuration>
